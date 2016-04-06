@@ -65,10 +65,11 @@ csscomb assets/css
 - No whitespace at the end of line or on blank lines.
 - Use a space after a property name's colon, do not use a space before the colon.
 - Put a space before `{` in rule declaration.
+
     Example:
     ```css
     p {
-    padding-left: 2px;
+      padding-left: 2px;
     }
     ```
 - Place the closing brace of a rule declaration on a new line.
@@ -82,8 +83,7 @@ csscomb assets/css
 ## Formatting
 
 - Use hex color codes (#5C8FB3) unless using rgba().
-- When possible, use full hex values.
-- Use upper case letters when declaring hex codes.
+- Always use full hex codes using upper case letters.
 - Don't specify units for 0 values.
 - Avoid cascading selectors that are more than 3 selectors long.
 - Avoid unnecessary cascading selectors.
@@ -119,7 +119,7 @@ csscomb assets/css
     section#home{
       ...
     }
-    /End of home section */
+    /* End of home section */
 
     /* Footer */
     footer{
